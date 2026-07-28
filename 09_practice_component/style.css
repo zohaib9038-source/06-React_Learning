@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.profileCard {
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid black;
+  padding-bottom: 1rem;
+}
+.profileCard img {
+  width: 100%;
+
+  height: 300px;
+}
+.card-details {
+  padding-left: 0.45rem;
+}
+.card-details h2 {
+  padding-bottom: 0.55rem;
+}
+.cardContainer {
+  display: flex;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  gap: 0.667rem;
+  justify-content: center;
+}
