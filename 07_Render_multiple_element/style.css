@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cardContainer {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  gap: 0.66rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 0.44rem;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+}
+.card-content {
+  padding-left: 1rem;
+}
+.card h3 {
+  padding-bottom: 0.22rem;
+}
+.card p {
+  padding-bottom: 0.45rem;
+}
