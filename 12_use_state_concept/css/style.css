@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.appleContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.appleContainer img {
+  width: 100%;
+  max-width: 100px;
+  height: 50px;
+}
