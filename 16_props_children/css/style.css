@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.appleContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.appleContainer img {
+  width: 100%;
+  max-width: 50px;
+  height: 50px;
+}
+.appleContainer button {
+  /* width: 100%;
+  max-width: 200px; */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
