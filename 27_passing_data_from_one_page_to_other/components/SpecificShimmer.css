@@ -1,0 +1,10 @@
+.specificProductShimmer {
+  min-width: 68px;
+  height: 330px;
+  background-color: #776e6e;
+}
+.shimmerTitle {
+  background-color: #938d8d;
+  min-height: 40px;
+  margin-bottom: 1rem;
+}
