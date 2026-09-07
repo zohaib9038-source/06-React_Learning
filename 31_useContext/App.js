@@ -19,7 +19,8 @@ Context → Any component that needs the data
 So, we use useContext mainly to avoid props drilling and share data between multiple components.*/
 
 export default function App() {
-  const user = "Zohaib ";
+  // const user = "Zohaib ";
+  // const userDetails = { name: "zohaib", role: "dev" };//for mutiple value
   return (
     <usercontext.Provider value={user}>
       <Parent />
