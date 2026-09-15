@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(22, 21, 21);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+}
+
+header .cart {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+.carditem {
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 2rem;
+  width: 200px;
+}
+.carditem button {
+  border: 1px solid black;
+  background: #adadc7;
+  padding-inline: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.carditem {
+  position: relative;
+  z-index: 9999;
+}
