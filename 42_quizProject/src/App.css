@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Quiz{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.startQuiz{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+input{
+        width: 500px;
+    padding-block: 0.33rem;
+    padding-inline: 0.22rem;
+}
+input button{
+    width: 88px;
+    padding-block: 0.33rem;
+    margin-inline: auto;
+}
+.time{
+       text-align: center;
+    /* border: 1px solid black; */
+    padding-block: 0.9733rem;
+    background: #a2d3ff;
+    border-radius: 6px;
+}
+.bar{
+    height: 13px;
+    background: #ede1e1;
+    border-radius: 10px;
+    margin-block: 1rem;
+   
+}
+.fill{
+    font-size: 12px;
+    text-align: center;
+    transition: width 0.5s ease;
+}
+.questionAns{
+        margin-inline: 1rem;
+        margin-top: 1rem;
+}
+
+.bar .fill{
+    height: 100%;
+      border-radius: 10px;
+}
+.quizAns{
+    padding-inline: 1rem;
+    padding-block: 0.9333rem;
+    box-shadow: 0px 0px 15px 4px #ece4e4;
+    background: #f5f8fb;
+    border: 1px solid #ebdbdb;
+    border-radius: 9px;
+
+}
+.quizAns p{
+    margin-block: 1.45rem;
+}
+.options{
+        border: 1px solid #329ce3;
+    font-size: 14px;
+    padding-block: 0.184rem;
+    border-radius: 4px;
+    text-align: center;
+    color: blue;
+}
+.questionOption{
+    margin-top: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.44rem;
+}
+.options:hover{
+    background-color: blue;
+    color: white;
+}
+.quizCompleted{
+    text-align: center;
+}
+.dashboard{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard button{
+    padding-inline: 0.52rem;
+    padding-block: 0.23rem;
+    width: fit-content;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding-block: 0.44rem;
+    border-radius: 5px;
+   
+    cursor: pointer;
+  
+
+}
+.dashboard a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard .home{
+    background-color: #dc3545;
+  
+}
+.dashboard .LeaderBoard{
+     background-color: #155dc8;
+    
+     
+}
+/* Table */
+.table{
+    padding-inline: 2rem; 
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clearLeaderBoard{
+    padding-inline: 0.5rem;
+    padding-block: 0.44rem;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(239, 46, 46);
+}
+.table table tbody{
+    background: #6e6a6a;
+    color: white;
+    text-align: center;
+}
+table tbody tr td{
+    padding-block:0.51rem;
+}
+.table h2{
+    text-align: center;
+    margin-block: 1rem;
+}
+table thead tr th{
+    padding-block:0.51rem;
+}
